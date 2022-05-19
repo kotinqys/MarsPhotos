@@ -1,0 +1,52 @@
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.301);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    position: relative;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.imges{
+    display: flex;
+    align-items: center;
+}
+.right{
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.right:active{
+    margin-bottom: -2px;
+}
+.left{
+    cursor: pointer;
+}
+.left:active{
+    margin-bottom: -2px;
+}
+.info{
+    margin-left: 20px;
+}
+
+.info p span{
+    font-weight: 700;
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+    color: rgb(218, 18, 18);
+    top:10px;
+    font-weight: 700;
+}

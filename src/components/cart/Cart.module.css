@@ -1,0 +1,21 @@
+.cart{
+    cursor: pointer;
+    display: flex;
+    margin: 10px 0px;
+    border: 1px solid silver;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.cart p span{
+    font-weight: 700;
+}
