@@ -4,7 +4,6 @@ import styles from './Modal.module.css'
 import arrow from '../../assets/arrow.png'
 import { useSelector } from 'react-redux'
 import { AppStateType } from '../../store/store'
-import Loading from '../loading/Loading'
 
 interface IModal {
     data: MarsPhoto,

@@ -1,4 +1,5 @@
 import { MarsPhoto } from "../types/type"
+import {IAction} from '../actions/mars'
 
 type InitialStateType = {
     photos: MarsPhoto[],
@@ -12,9 +13,9 @@ let initialState:InitialStateType = {
 
 const marsReducer = (state = initialState, action:any):InitialStateType => {
         switch (action.type) {
-            case 'SET_MARSH_PHOTOS':
+            case IAction.SET_MARS_PHOTOS:
                 return { ...state, photos: [...action.payload] }
-            case 'SET_LOADING':
+            case IAction.SET_LOADING:
                 return {...state,loading:action.payload}
             default:
                 return state
